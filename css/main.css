@@ -48,6 +48,8 @@ video {
   vertical-align: middle;
 }
 
+
+
 #container {
   display: flex;
   flex-direction: column;
@@ -130,10 +132,12 @@ section {
   height: 300px;
   overflow: auto;
   border-bottom: 2px solid;
-  background: lightpink;
+  background: white;
 }
 
-
+.fullBox {
+  background-color: #F2C94C;
+}
 
 
 
