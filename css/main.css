@@ -53,7 +53,7 @@ video {
   display: flex;
   flex-direction: column;
   /*height: 100%;*/
-  max-width: 1440px;
+  /*max-width: 1440px;*/
   margin: 0 auto;
 }
 
@@ -64,7 +64,6 @@ main {
 
 /* The hero image */
 .hero-image {
-  margin: 0 0;
   background-image: url("../img/hero-beach.jpg");
   height: 480px;
   background-repeat: no-repeat;
@@ -206,8 +205,8 @@ section h2 {
 
 }
 
-#container{
-  margin: 0px 80px 0px 80px;
+#allSections{
+  margin: 0px 122px 0px 123px;
 }
 
 .missionImage img {
