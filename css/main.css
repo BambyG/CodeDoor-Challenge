@@ -10,8 +10,7 @@ body {
   font-size: 1em;
   font-family: "Roboto", sans-serif;
   line-height: 1.4;
-  margin: 0;
-  height: 100%;
+  margin:100%;
 }
 
 ::-moz-selection {
@@ -53,7 +52,7 @@ video {
 #container {
   display: flex;
   flex-direction: column;
-  height: 100%;
+  /*height: 100%;*/
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -71,31 +70,8 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-}
-
-h1 {
-  font-style: 'Bold';
-  font-size: 48px;
-  margin: 100px;
-  font-family: 'Roboto';
 
 }
-
-h2 {
-  font-style: 'Bold';
-  font-size: 36px;
-  font-family: 'Roboto';
-
-}
-
-.hero-banner span {
-    background-color: white;
-    padding: 8px;
-    margin-top: 77px;
-    padding-right: 35px;
-}
-
-
 
 
 header {
@@ -104,6 +80,8 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 64px;
+  padding-right: 120px;
+  padding-left: 140px;
 }
 
 .header__logo {
@@ -129,11 +107,12 @@ footer {
    ========================================================================== */
 
 section {
-  height: 300px;
   overflow: auto;
   border-bottom: 2px solid;
   background: white;
   padding-bottom: 100px;
+  font-family: 'roboto';
+
 }
 
 .boxParent{
@@ -143,23 +122,204 @@ section {
 
 }
 
+h1 {
+  font-style: 'Bold';
+  font-size: 48px;
+  margin: 120px;
+  font-family: 'Roboto';
+
+}
+
+h2 {
+  font-style: 'Bold';
+  font-size: 36px;
+  font-family: 'Roboto';
+
+}
+
+.hero-banner span {
+    background-color: white;
+    padding: 8px;
+    margin-top: 77px;
+    padding-right: 35px;
+    padding-left: 18px;
+}
+
+.boxParentMission{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.boxParentMission p{
+  width: 602px;
+  height: 197px;
+  font-size: 24px;
+  letter-spacing: 0.03em;
+
+}
+
 
 .fullBox {
   background-color: #F2C94C;
-  width: 700px;
-  height: 200px;
+  width: 587px;
+  height: 216px;
+  position: relative;
+
+}
+
+.boxParent .fullBox:nth-child(2) {
+  background: #83AFED;
+}
+
+
+.fullBox .CTA {
+  background-color: #000000;
+  color:white;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  margin-bottom:0;
+  height: 50px;
+  vertical-align: middle;
+
+
+}
+
+section h2 {
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 
 
+.fullBox .CTA p{
+ padding-left: 24px;
+}
+
+.fullBox .boxTitle {
+  position: absolute;
+  bottom: 60px;
+  font-style: bold;
+  padding-left: 20px;
+
+}
+
+#container{
+  margin: 0px 80px 0px 80px;
+}
+
+.missionImage img {
+  width: 483px;
+
+}
 
 
+.button {
+  background-color: #000000;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 224px;
+  height: 78px;
+  margin-top: 50px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 24px;
+  letter-spacing: 0.03em;
+}
+
+#threeYellowBoxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#threeBlueBoxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.blueBox {
+
+  /* Element 1 */
+background-color: #83AFED;
+width: 345px;
+height: 550.25px;
+margin-top: 50px;
+position: relative;
+
+}
+
+.yellowBox {
+
+  /* Element 1 */
+background-color: #F2C94C;
+width: 345px;
+height: 550.25px;
+margin-top: 50px;
+position: relative;
+
+}
+
+.category {
+
+font-size: 18px;
+letter-spacing: 0.03em;
+color: #4F4F4F;
+padding: 22.52px 13px 0 23px;
+
+}
+
+.title{
+
+  /* Why you need Bananas in your life */
+
+font-weight: bold;
+font-size: 24px;
+letter-spacing: 0.03em;
+color: #000000;
+padding: 32.31px 21px 0 21px;
+
+}
+
+.yellowBox img {
+  position: absolute;
+  width: 100%;
+  width: 345px;
+  height: 350px;
+  bottom: 0px;
+}
+
+.blueBox img {
+  position: absolute;
+  width: 100%;
+  width: 345px;
+  height: 350px;
+  bottom: 0px;
+}
+
+i {
+  font-size: 36px;
+  letter-spacing: 20px;
+}
+
+footer svg {
+  padding-right: 20px;
+}
 
 
-
-
-
-
+footer a {
+  padding-right: 20px;
+}
 
 
 
