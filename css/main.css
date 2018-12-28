@@ -65,7 +65,7 @@ main {
 /* The hero image */
 .hero-image {
   background-image: url("../img/hero-beach.jpg");
-  height: 480px;
+  
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -78,7 +78,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 64px;
+  height: 81px;
   padding-right: 120px;
   padding-left: 140px;
 }
@@ -109,9 +109,15 @@ section {
   overflow: auto;
   border-bottom: 2px solid;
   background: white;
-  padding-bottom: 100px;
+  padding-bottom: 64px;
   font-family: 'roboto';
+  
 
+}
+
+section h2 {
+  padding-top:54px;
+  padding-bottom: 47px;
 }
 
 .boxParent{
@@ -124,8 +130,9 @@ section {
 h1 {
   font-style: 'Bold';
   font-size: 48px;
-  margin: 120px;
+  margin: 200px 0px 100px 135px;
   font-family: 'Roboto';
+  letter-spacing: 0.05em;
 
 }
 
@@ -148,7 +155,13 @@ h2 {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding-bottom: 124px;
 
+}
+
+.boxParentMission h2{
+  padding-top: 54px;
+ 
 }
 
 .boxParentMission p{
@@ -160,11 +173,27 @@ h2 {
 }
 
 
+/* Communities */
+
+
+.boxTitle {
+  font-family: Roboto;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 24px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+
+}
+
+
 .fullBox {
   background-color: #F2C94C;
-  width: 587px;
+  width: 588px;
   height: 216px;
   position: relative;
+
 
 }
 
@@ -182,7 +211,7 @@ h2 {
   margin-bottom:0;
   height: 50px;
   vertical-align: middle;
-
+  height: 59px;
 
 }
 
@@ -193,8 +222,15 @@ section h2 {
 
 
 
+
+
 .fullBox .CTA p{
- padding-left: 24px;
+
+ position: relative;
+ bottom: 5px;
+ left: 0;
+
+
 }
 
 .fullBox .boxTitle {
@@ -211,7 +247,12 @@ section h2 {
 
 .missionImage img {
   width: 483px;
+  margin-top: 74px;
 
+}
+
+section p {
+  font-size: 24px;
 }
 
 
@@ -219,7 +260,7 @@ section h2 {
   background-color: #000000;
   border: none;
   color: white;
-  padding: 15px 32px;
+  padding: 15px 32px 15px 5px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -233,18 +274,22 @@ section h2 {
   line-height: normal;
   font-size: 24px;
   letter-spacing: 0.03em;
+  margin-bottom: 111px;
+  margin-top: 42px;
 }
 
 #threeYellowBoxes {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-bottom: 41px;
 }
 
 #threeBlueBoxes {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  margin-bottom:41px;
 }
 
 .blueBox {
@@ -264,7 +309,6 @@ position: relative;
 background-color: #F2C94C;
 width: 345px;
 height: 550.25px;
-margin-top: 50px;
 position: relative;
 
 }
@@ -312,12 +356,14 @@ i {
 }
 
 footer svg {
-  padding-right: 20px;
+  padding-left: 40px;
+  padding-right: 15px;
+
 }
 
 
 footer a {
-  padding-right: 20px;
+  padding-right: 55px;
 }
 
 
@@ -336,10 +382,10 @@ footer a {
   position: absolute;
   background-color: white;
   z-index: 1;
-  margin-left: -280px;
+  margin-left: -258px;
   width: 320px;
   height: 350px;
-  margin-top: 13px;
+  margin-top: 7px;
 
 
 
@@ -365,7 +411,7 @@ footer a {
 .show {display:block;}
 
 button {
-      font-size: 25px;
+      font-size: 47px;
       border-color: white;
 }
 
