@@ -190,7 +190,7 @@ h2 {
 
 .fullBox {
   background-color: #F2C94C;
-  width: 588px;
+  width: 587px;
   height: 216px;
   position: relative;
 
@@ -228,7 +228,8 @@ section h2 {
 
  position: relative;
  bottom: 5px;
- left: 0;
+ left: 20px;
+ width: 200px;
 
 
 }
@@ -425,6 +426,7 @@ font-size: 34px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 }
+
 
 
 
